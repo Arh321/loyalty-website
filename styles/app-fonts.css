@@ -1,0 +1,68 @@
+@font-face {
+  font-family: Regular;
+  src: url("/fonts/IRANYekanXFaNum-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: Light;
+  src: url("/fonts/IRANYekanXFaNum-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: Medium;
+  src: url("/fonts/IRANYekanXFaNum-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: Bold;
+  src: url("/fonts/IRANYekanXFaNum-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: Demi-Bold;
+  src: url("/fonts/IRANYekanXFaNum-DemiBold.woff") format("woff");
+}
+@font-face {
+  font-family: Extra-Black;
+  src: url("/fonts/IRANYekanXFaNum-ExtraBlack.woff") format("woff");
+}
+@font-face {
+  font-family: Extra-Bold;
+  src: url("/fonts/IRANYekanXFaNum-ExtraBold.woff") format("woff");
+}
+@font-face {
+  font-family: Heavy;
+  src: url("/fonts/IRANYekanXFaNum-Heavy.woff") format("woff");
+}
+@font-face {
+  font-family: Light;
+  src: url("/fonts/IRANYekanXFaNum-Light.woff") format("woff");
+}
+@font-face {
+  font-family: Thin;
+  src: url("/fonts/IRANYekanXFaNum-Thin.woff") format("woff");
+}
+@font-face {
+  font-family: Ultra-Light;
+  src: url("/fonts/IRANYekanXFaNum-UltraLight.woff") format("woff");
+}
+
+@font-face {
+  font-family: Almarai-Bold;
+  src: url("/fonts/Almarai-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: Almarai-ExtraBold;
+  src: url("/fonts/Almarai-ExtraBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: Almarai-Light;
+  src: url("/fonts/Almarai-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: Almarai-Regular;
+  src: url("/fonts/Almarai-Regular.woff") format("woff");
+}

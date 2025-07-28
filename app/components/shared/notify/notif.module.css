@@ -1,0 +1,18 @@
+.notif-container {
+  display: flex;
+  flex-direction: column-reverse;
+  direction: ltr;
+}
+
+.notif-container [class~="ant-notification-notice-close"] {
+  position: absolute !important;
+  left: 10px !important;
+  top: 10px !important;
+}
+.notif-container [class~="ant-notification-notice-message"] {
+  padding: 0 !important;
+}
+.notif-parent {
+  position: relative;
+  z-index: 10000000000000;
+}
