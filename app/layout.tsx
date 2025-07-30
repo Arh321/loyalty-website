@@ -22,7 +22,7 @@ export async function generateMetadata(): Promise<Metadata> {
   // const data = await res.json();
 
   const title = "همراه هوشمند کسب‌و‌کار آنلاین شما |  فرداد سیستم مهام";
-  const description = `به سایت ما خوش اومدید! /images 
+  const description = `به سایت ما خوش اومدید!
 جایی که مشکلات وردپرس، پرستاشاپ، گزارش‌گیری و تعامل با مشتری، دیگه مشکل نیست!
 با ابزارهای هوشمند، پشتیبانی حرفه‌ای و خدمات اختصاصی، رشد آنلاین فروشگاهتون رو با ما تجربه کنید.`;
 

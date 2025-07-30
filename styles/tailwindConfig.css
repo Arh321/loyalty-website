@@ -38,8 +38,8 @@
   --screen-md: 670px;
   --screen-lg: 1024px;
   --screen-xl: 1220px;
-  --screen-lxl: 1440px;
-  --screen-dxl: 1600px;
+  --screen-dxl: 1440px;
+  --screen-ldxl: 1600px;
   --screen-vdxl: 1900px;
 
   --animate-fadeIn: fadeIn 0.3s ease-in-out;
