@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import biScreen from "@/public/images/bi-screen.png";
+import biScreen from "@/public/images/bi-screen.webp";
 import BiSecLabels from "./biSecLabels";
 import { useInView } from "@/app/hooks/useInView";
 import clsx from "clsx";

@@ -1,4 +1,4 @@
-import logo from "@/public/images/logo.png";
+import logo from "@/public/images/logo.webp";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -25,14 +25,14 @@ const HeaderMenu = () => {
         <div
           className="w-full bg-no-repeat bg-contain"
           style={{
-            backgroundImage: "url(/images/header-images/header-lines.png)",
+            backgroundImage: "url(/images/header-images/header-lines.webp)",
             backgroundPositionX: "50px",
           }}
         >
           <div
             className="w-full px-[140px] py-[10px] flex items-center gap-[100px] bg-no-repeat bg-contain"
             style={{
-              backgroundImage: "url(/images/header-images/lines.png)",
+              backgroundImage: "url(/images/header-images/lines.webp)",
             }}
           >
             <div className="flex items-center gap-4">

@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import logo from "@/public/images/logo.png";
+import logo from "@/public/images/logo.webp";
 import { motion } from "framer-motion";
 const LoadingApp = () => {
   return (
