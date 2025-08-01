@@ -7,6 +7,7 @@ import BouncingBall from "./bouncingBall";
 type Item = {
   title: string;
   color: string;
+  textColor: string;
   tip: string;
   id: number;
 };
@@ -15,18 +16,23 @@ const items: Item[] = [
     title: "ارتباطی نزدیکتر",
     color: style["first-bg"],
     tip: "CLUB",
+    textColor: "text-[#466d74]",
     id: 1,
   },
   {
     title: "تجربه‌ای مدرن",
     color: style["second-bg"],
     tip: "MENU",
+    textColor: "text-[#2d4470]",
+
     id: 2,
   },
   {
     title: "تصمیم سازی هوشمند",
     color: style["third-bg"],
     tip: "DASHBOARD",
+    textColor: "text-[#1677ff]",
+
     id: 3,
   },
 ];
@@ -52,7 +58,15 @@ const JumpingBallContainer = () => {
         }}
         className="w-full h-full flex items-center justify-center text-[230px] absolute inset-0 m-auto font-bold blur-[3px]"
       >
-        {activeItem.tip}
+        <span
+          className={clsx(
+            activeItem.textColor,
+            style["text-effect"],
+            "transition-all"
+          )}
+        >
+          {activeItem.tip}
+        </span>
       </div>
       <ul className="flex flex-col gap-[40px] h-max relative z-[2]">
         <BouncingBall onBounce={handleChangeIndex} />
