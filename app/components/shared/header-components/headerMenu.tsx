@@ -30,7 +30,7 @@ const HeaderMenu = () => {
           }}
         >
           <div
-            className="w-full px-[140px] py-[10px] flex items-center gap-[100px] bg-no-repeat bg-contain"
+            className="w-full lg:px-[60px] xl:px-[100px] ldxl:px-[140px] py-[5px] ldxl:py-[10px] flex items-center lg:gap-[40px] dxl:gap-[70px] ldxl:gap-[100px] bg-no-repeat bg-contain"
             style={{
               backgroundImage: "url(/images/header-images/lines.webp)",
             }}
@@ -45,7 +45,7 @@ const HeaderMenu = () => {
                   priority
                 />
               </Link>
-              <div className="flex flex-col font-Yekan-Medium">
+              <div className="flex flex-col font-Yekan-Medium lg:text-sm dxl:text-base">
                 <span>راهکارهای هوشمند</span>
                 <span>فرداد سیستم مهام</span>
               </div>
@@ -56,7 +56,7 @@ const HeaderMenu = () => {
                   <Link
                     href={route.url}
                     aria-current={route.url === "/" ? "page" : undefined}
-                    className="hover:text-highlighter transition-colors border-b border-transparent hover:border-highlighter"
+                    className="hover:text-highlighter lg:text-sm dxl:text-base transition-colors border-b border-transparent hover:border-highlighter"
                   >
                     {route.title}
                   </Link>

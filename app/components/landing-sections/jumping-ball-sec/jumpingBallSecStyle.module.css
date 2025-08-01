@@ -1,0 +1,57 @@
+.first-bg {
+  background: linear-gradient(
+    to bottom,
+    #42686e 0%,
+    #466d74 70%,
+    #40646b 75%,
+    #587c82 80%,
+    #3f6268 90%
+  );
+  transition: all 0.4s ease-in;
+}
+
+.second-bg {
+  background: linear-gradient(
+    to bottom,
+    #2b416a 0%,
+    #2d4470 70%,
+    #293f67 75%,
+    #42577e 80%,
+    #283d65 90%
+  );
+  transition: all 0.4s ease-in;
+}
+
+.third-bg {
+  background: linear-gradient(
+    to bottom,
+    #1571f2 0%,
+    #1677ff 70%,
+    #146deb 75%,
+    #2d85ff 80%,
+    #146be5 90%
+  );
+  transition: all 0.4s ease-in;
+}
+
+.ball {
+  width: 100px;
+  height: 100px;
+  border-radius: 9999px;
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: bounce 1s infinite ease-in-out;
+  z-index: 10;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    top: 0;
+  }
+  50% {
+    top: -200px;
+  }
+}

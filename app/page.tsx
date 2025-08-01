@@ -3,6 +3,7 @@ import BiSectionContainer from "./components/landing-sections/bi-sec/biSecContai
 import IntroSecContainer from "./components/landing-sections/intro-sec/introSecContainer";
 import LoadingApp from "./components/shared/loading/loading";
 import TodayBusinessSec from "./components/landing-sections/today-business-sec/todayBusinessSec";
+import JumpingBallContainer from "./components/landing-sections/jumping-ball-sec/jumpingBallContainer";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <IntroSecContainer />
         <BiSectionContainer />
         <TodayBusinessSec />
+        <JumpingBallContainer />
       </div>
     </Suspense>
   );

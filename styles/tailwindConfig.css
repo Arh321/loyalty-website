@@ -32,15 +32,20 @@
   --color-highlighter: #fff;
   --color-labels: #beb3ff;
 
-  --screen-vld: 0px;
-  --screen-lxs: 375px;
-  --screen-xs: 460px;
-  --screen-md: 670px;
-  --screen-lg: 1024px;
-  --screen-xl: 1220px;
-  --screen-dxl: 1440px;
-  --screen-ldxl: 1600px;
-  --screen-vdxl: 1900px;
+  --breakpoint-xs: 30rem;
+  --breakpoint-2xl: 100rem;
+  --breakpoint-3xl: 120rem;
+  --breakpoint-sm: 320px;
+
+  --breakpoint-lsm: 420px;
+  --breakpoint-smd: 568px;
+  --breakpoint-md: 768px;
+
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1220px;
+  --breakpoint-dxl: 1440px;
+  --breakpoint-ldxl: 1600px;
+  --breakpoint-vdxl: 1900px;
 
   --animate-fadeIn: fadeIn 0.3s ease-in-out;
   --animate-fadeUp: fadeUp 0.3s ease-in-out forwards;
