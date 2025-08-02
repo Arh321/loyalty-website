@@ -12,9 +12,9 @@ const TodayBusinessSec: React.FC = () => {
     <section
       ref={ref}
       dir="rtl"
-      className="w-full h-[calc(100dvh-120px)] vdxl:h-[calc(100dvh-200px)] relative z-[2] bg-white/70 px-5 pb-10 pt-5 flex justify-center items-center"
+      className="w-full h-[calc(100dvh-120px)] vdxl:h-[calc(100dvh-200px)] relative z-[2] bg-white/90 px-5 pb-10 pt-5 flex justify-center items-center"
     >
-      <div className="w-3/4 grid grid-cols-2 gap-5 h-full vdxl:h-5/6 ">
+      <div className="w-3/4 grid grid-cols-2 gap-5 h-full ">
         <div className="col-span-1 relative h-full">
           <div className="absolute top-8 right-0 ">
             <FloatingImage
@@ -38,13 +38,13 @@ const TodayBusinessSec: React.FC = () => {
           <h2 className="lg:text-[36px] xl:text-[40px] ldxl:text-[52px] font-Yekan-Demi-Bold text-primary1">
             کسب و کارهای امــروزی
           </h2>
-          <p className="font-Yekan-Regular lg:text-[16px] dxl:text-[20px] vdxl:text-[22px] text-primary1 leading-7 vdxl:leading-8">
+          <p className="font-Yekan-Regular lg:text-[16px] dxl:text-[20px] vdxl:text-[21px] text-primary1 leading-7 vdxl:leading-8">
             در دنیای رقابتی امروز، دیگر تنها ارائه محصول یا خدمات باکیفیت کافی
             نیست. آنچه مشتریان به دنبال آن هستند، یک تجربه متفاوت و
             شخصی‌سازی‌شده است. باشگاه مشتریان، به‌عنوان یکی از قدرتمندترین
             ابزارهای بازاریابی مدرن، دقیقاً همین نیاز را برآورده می‌کند.
           </p>
-          <ul className="font-Yekan-Regular lg:text-[16px] dxl:text-[20px] vdxl:text-[22px] text-primary1 leading-7 vdxl:leading-8 flex flex-col gap-2">
+          <ul className="font-Yekan-Regular lg:text-[16px] dxl:text-[20px] vdxl:text-[21px] text-primary1 leading-7 vdxl:leading-8 flex flex-col gap-2">
             <li className="list-disc">
               تحقیقات نشان می‌دهد که مشتریان وفادار ۸۰٪ بیشتر از مشتریان جدید
               خرید می‌کنند.

@@ -45,12 +45,12 @@ export default function BouncingBall({ onBounce }: { onBounce: () => void }) {
   return (
     <motion.div
       animate={parentControls}
-      className="absolute -top-[60px] left-1/2 -translate-x-1/2"
+      className="absolute -top-[60px] vdxl:-top-[80px] left-1/2 -translate-x-1/2"
       style={{ originY: 1 }}
     >
       <motion.div
         animate={childControls}
-        className="size-[60px] vdxl:w-[100px] vdxl:h-[100px] rounded-full bg-white shadow-xl"
+        className="size-[60px] vdxl:w-[80px] vdxl:h-[80px] rounded-full bg-white shadow-xl"
       />
     </motion.div>
   );

@@ -48,7 +48,7 @@ const JumpingBallContainer = () => {
     <section
       className={clsx(
         activeItem.color,
-        "w-full h-dvh z-[2] px-5 pb-5 pt-[350px] flex justify-center relative transition-all"
+        "w-full h-dvh z-[2] px-5 pb-5 pt-[350px] vdxl:pt-[450px] flex justify-center relative transition-all"
       )}
     >
       <div
@@ -56,7 +56,7 @@ const JumpingBallContainer = () => {
           letterSpacing: "5px",
           lineHeight: "300px",
         }}
-        className="w-full h-full flex items-center justify-center text-[230px] absolute inset-0 m-auto font-bold blur-[3px]"
+        className="w-full h-full flex items-center justify-center text-[230px] vdxl:pt-[100px] absolute inset-0 m-auto font-bold blur-[3px]"
       >
         <span
           className={clsx(
